@@ -1,0 +1,39 @@
+body, html{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    
+    background-image: url(../img/bgc.jpg);
+    height: 100vh;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_header_container{
+    margin: 0px 312px;
+}
+.header_line{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.nav_item{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 70;
+    margin-right: 80px;
+    font-size: 18px;
+}
+
+.nav_left{
+    margin-top: 9px;
+    margin-left: 126px;
+}
+
+.nav_right{
+    padding-top: 9px;
+    margin-left: 120px;
+}
